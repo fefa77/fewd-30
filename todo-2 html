@@ -1,0 +1,27 @@
+<form id="new-todo-item-form>
+  <imput type= "text" id="new-todo-item-imput" placeholder= "what do you need to do?">
+    <button type= "submit">Create todo</button>
+  </form>
+  <ul id= "todo-list">
+  </ul>
+
+
+  <script>
+
+
+    //when the form is submitted
+    //  grab the imput from the text input
+    //  add an element (li) to the list (ul)
+    //    -creat the li
+          -set the content
+          -add it to the list
+    // Stop default form submission(normally it will reload the page)
+    // resert the form back to initial satate (empty teh input)
+
+
+    When the page loads;
+    // add an event listener to the submit
+
+
+    
+  </script>

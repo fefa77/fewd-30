@@ -1,0 +1,47 @@
+<html>
+<head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</ul>
+</main>
+
+<script>
+var form = docment.querySelector("form");
+var input = form.querySelector("input"); //find the input WITHIN
+var list = document.querySelector("#todo-list");
+
+
+function createTodoItem(text) {
+  var item1 = document.createElement("li");
+  item1.textContent = text;
+  intem1.setAttribute("class", "todo-item");
+  return item1;
+  }
+  function formSubmitted(event) {
+event.preventDefault();
+list.appendChild(creatTodoItem("input.value"));
+form.resert
+}
+
+form.addEventListener("submit"; formSubmitted);
+
+      </script>
+    </body>
+  </html>
+
+
+}
